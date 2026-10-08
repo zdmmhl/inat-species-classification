@@ -390,3 +390,10 @@ Create the ZIP from the checked-out `main` branch. Include the visible project
 files and directories, but do not include the hidden `.git/` directory or any
 locally generated ignored directory such as `datasets/`, `data_splits/`,
 `feature_cache/`, `results/`, `outputs/`, or `analysis/`.
+
+
+## Historical reports
+
+The reports preserve saved coursework observations and team context. They are not fresh benchmark or runtime verification.
+
+- [Historical presentation results and evaluation limits](docs/historical-results-report.md)
