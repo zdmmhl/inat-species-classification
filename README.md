@@ -1,8 +1,12 @@
-# COMP9517 iNaturalist Species Classification
+# iNaturalist Species Classification
 
-This repository contains the source code for the COMP9517 2026 Term 2 group
-project. The project classifies iNaturalist-2021 images into species and
-compares handcrafted computer-vision pipelines with deep-learning models.
+A fine-grained species-classification project comparing handcrafted computer-vision pipelines with deep-learning models on iNaturalist-2021 images. Originally developed as a team project for UNSW COMP9517 in 2026 Term 2.
+
+## My Contribution
+
+I built the unified evaluation and result-integration workflow, producing Top-1/Top-5 accuracy, per-class F1, confusion matrices, error examples, and runtime comparisons. I evaluated controlled experiments involving augmentation, initialization, label smoothing, MixUp, test-time augmentation, and class scaling, and checked consistency across experimental artifacts and prediction records.
+
+The implementation described below is the team project as a whole; this contribution statement identifies my part in it.
 
 This submission contains source code, configuration files, and tests only.
 Datasets, generated split manifests, model checkpoints, feature caches,
